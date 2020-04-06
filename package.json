@@ -4,12 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "postcss css/tailwind.css -o css/index.css",
+    "watch": "watch 'npm run build:css' ./css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "autoprefixer": "^9.7.5",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0",
+    "watch": "^1.0.2"
   }
 }
