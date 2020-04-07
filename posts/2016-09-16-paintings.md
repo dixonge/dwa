@@ -7,3 +7,5 @@ image: /img/image.jpeg
 ---
 
 Future painting , taken in Cancun
+
+![](/img/image.jpeg)
