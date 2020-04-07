@@ -595,6 +595,15 @@ video {
   height: auto;
 }
 
+p {
+  padding-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
 .container {
   width: 100%;
 }

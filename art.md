@@ -8,7 +8,7 @@ layout: layouts/home.njk
 
 <a href="../feathers/">
 <figure>
-<img src="../feathers/deer-featured-w.jpg" >
+<img src="../img/feathers/deer-featured-w.jpg">
 <figcaption>
 Turkey Feathers
 </figcaption>
@@ -16,7 +16,7 @@ Turkey Feathers
 </a>
 <a href="../misc/">
 <figure>
-<img src="../misc/emmitt-new-w.jpg">
+<img src="../img/misc/emmitt-new-w.jpg">
 <figcaption>
 Miscellaneous
 </figcaption>
@@ -24,7 +24,7 @@ Miscellaneous
 </a>
 <a href="../wildlife/">
 <figure>
-<img src="../wildlife/elkmorning-w.jpg">
+<img src="../img/wildlife/elkmorning-w.jpg">
 <figcaption>
 Wildlife
 </figcaption>
