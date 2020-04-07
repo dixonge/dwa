@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:css": "postcss css/tailwind.css -o css/index.css",
-    "build:css-purge": "env NODE_ENV=production postcss css/styles.css -o css-dist/index.css",
+    "build:css-purge": "env NODE_ENV=production postcss css/tailwind.css -o css/index.css",
     "build": "eleventy",
     "watch": "eleventy --serve --port=8080"
   },
