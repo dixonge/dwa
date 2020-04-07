@@ -1,10 +1,12 @@
 <header class="">
-      <h1 class="px-4 mt-4 mb-4 text-4xl font-black text-center"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+    <img src="/img/deer-header-big.jpg" alt="deer painted on a turkey feather" class="content-center">
       <div id="nav" class="flex text-center">
       <ul class="float-left list-none p">
-        {%- for nav in collections.nav -%}
-        <li class="inline-flex {% if nav.url == page.url %} font-bold underline{% endif %}"><a href="{{ nav.url | url }}" class="">{{ nav.data.navtitle }}</a></li>
-        {%- endfor -%}
+        <li class="inline-flex"><a href="index.md" class=""></a>HOME</li>
+        <li class="inline-flex"><a href="about.md" class=""></a>ABOUT</li>
+        <li class="inline-flex"><a href="art.md" class=""></a>ART</li>
+        <li class="inline-flex"><a href="contact.md" class=""></a>CONTACT</li>
+        <li class="inline-flex"><a href="posts/" class=""></a>NEWS</li>
       </ul>
       </div>
     </header>
