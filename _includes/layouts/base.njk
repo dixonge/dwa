@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+  {% include "layouts/head.njk" %}
+
+  <body class="">
+
+  {% include "layouts/header.njk" %}
+
+    <main class="relative flex-wrap max-w-5xl p-4 mx-auto my-auto overflow-hidden text-left">
+
+      {{ content | safe }}
+
+    </main>
+
+  {% include "layouts/footer.njk" %}
+
+    <!-- Current page: {{ page.url | url }} -->
+
+  </body>
+</html>
