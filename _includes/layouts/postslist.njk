@@ -1,10 +1,8 @@
 ---
 layouts: layouts/home.njk
 ---
-{% set postslist = collections.posts %}
 
 <h2>NEWS</h2>
-
 <ol reversed class="postlist" style="counter-reset: start-from {{ postslist.length + 1 }}">
 {% for post in postslist | reverse %}
   <li class="postlist-item">
