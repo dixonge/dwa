@@ -1,10 +1,9 @@
 ---
 author: Philip Dixon
-type: page
-date: 2016-08-30T19:54:46+00:00
-
+title: Welcome
+layout: layouts/home.njk
 ---
-## Welcome
+# Welcome
 
 Thank you for visiting. Please enjoy looking around. I hope you find something you love.
 

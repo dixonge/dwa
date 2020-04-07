@@ -1,9 +1,7 @@
 ---
 title: About the Artist
 author: Philip Dixon
-type: page
-date: 2016-08-30T19:54:45+00:00
-
+layout: layouts/home.njk
 ---
 
 <img src="images/philip-painting-2.jpg" alt="Philip Painting" width="350" class="theartist">
