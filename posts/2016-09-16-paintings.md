@@ -2,8 +2,7 @@
 title: Paintings
 author: Philip Dixon
 layout: layouts/home.njk
-tags:
-  - posts
+tags: posts
 image: /img/image.jpeg
 ---
 

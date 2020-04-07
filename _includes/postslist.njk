@@ -1,13 +1,8 @@
----
-layouts: layouts/home.njk
----
-
-<h2>NEWS</h2>
 <ol reversed class="postlist" style="counter-reset: start-from {{ postslist.length + 1 }}">
 {% for post in postslist | reverse %}
   <li class="postlist-item">
     <a href="{{ post.url | url }}" class="postlist-link u-url p-name">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    Updated: <time class="postlist-date dt-published" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    <p>Updated: <time class="postlist-date dt-published" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></p>
     {% for tag in post.data.tags %}
       {%- if tag != "posts" -%}
       {% set tagUrl %}/tags/{{ tag }}/{% endset %}

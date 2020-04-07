@@ -1,7 +1,8 @@
 ---
-layouts: layouts/base.njk
+layout: layouts/home.njk
 ---
-
 <h2>NEWS</h2>
 
-  {% include "layouts/postslist.njk" %}
+{% set postslist = collections.posts %}
+
+{% include "postslist.njk" %}
