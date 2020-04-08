@@ -3,6 +3,9 @@ const fs = require("fs");
 
 module.exports = function(eleventyConfig) {
 
+  // A responsive image helper using Netlify Large Media - image transformation
+  eleventyConfig.addShortcode("picture", require("./_includes/components/picture.js"));
+
   const filters = require('./_11ty/filters');
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
