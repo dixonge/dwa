@@ -1,5 +1,7 @@
 # [Dixon Wildlife Art](https://dixonwildlifeart.com)
 
+Built with ![](https://github.com/dixonge/dwa-11ty/blob/master/11ty-logo.png){:width="200px"}
+
 Built with <img src="https://github.com/dixonge/dwa-11ty/blob/master/11ty-logo.png?v=4&s=200">
 
 Built with ![](https://github.com/dixonge/dwa-11ty/blob/master/11ty-logo.png?s=200)
