@@ -8,4 +8,4 @@ image: /img/image.jpeg
 
 Future painting , taken in Cancun
 
-{% picture "/img/image.jpeg", "Cancun infinity pool at sunset" %}
+{% picture "image.jpeg", "Cancun infinity pool at sunset" %}

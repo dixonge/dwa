@@ -24,13 +24,13 @@ images:
 
 <ul class="grid grid-cols-3 gap-4">
   {% for filename in images %}
-   <li><a href="../img/wildlife/{{ filename }}">
+   <li><a href="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto/dwa/wildlife/{{ filename }}">
   <picture>
-    <source srcset="../img/wildlife/{{ filename }}?nf_resize=fit&w=320" media="(max-width: 320px)">
-    <source srcset="../img/wildlife/{{ filename }}?nf_resize=fit&w=375" media="(max-width: 375px)">
-    <source srcset="../img/wildlife/{{ filename }}?nf_resize=fit&w=414" media="(max-width: 414px)">
-    <source srcset="../img/wildlife/{{ filename }}?nf_resize=fit&w=756" media="(min-width: 755px)">
-    <img src="../img/wildlife/{{ filename }}?nf_resize=fit&w=756" alt="${alt}" />
+    <source srcset="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_320/dwa/wildlife/{{ filename }}" media="(max-width: 320px)">
+    <source srcset="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_375/dwa/wildlife/{{ filename }}" media="(max-width: 375px)">
+    <source srcset="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_414/dwa/wildlife/{{ filename }}" media="(max-width: 414px)">
+    <source srcset="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_755/dwa/wildlife/{{ filename }}" media="(min-width: 755px)">
+    <img src="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_756/dwa/wildlife/{{ filename }}" alt="${alt}" />
   </picture>
    </a></li>
   {% endfor %}

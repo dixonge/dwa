@@ -9,7 +9,7 @@ layout: layouts/home.njk
 <div class="px-2">
 <a href="../feathers/">
 <figure>
-<img src="../img/feathers/deer-featured-w.jpg?nf_resize=fit&w=320">
+<img src="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_320/dwa/feathers/deer-featured-w.jpg">
 <figcaption class="text-center">
 Turkey Feathers
 </figcaption>
@@ -19,7 +19,7 @@ Turkey Feathers
 <div class="px-2">
 <a href="../misc/">
 <figure>
-<img src="../img/misc/emmitt-new-w.jpg?nf_resize=fit&w=320">
+<img src="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_320/dwa/misc/emmitt-new-w.jpg">
 <figcaption class="text-center">
 Miscellaneous
 </figcaption>
@@ -29,7 +29,7 @@ Miscellaneous
 <div class="px-2">
 <a href="../wildlife/">
 <figure>
-<img src="../img/wildlife/elkmorning-w.jpg?nf_resize=fit&w=320">
+<img src="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_320/dwa/wildlife/elkmorning-w.jpg">
 <figcaption class="text-center">
 Wildlife
 </figcaption>
