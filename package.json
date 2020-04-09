@@ -26,18 +26,17 @@
   "homepage": "https://github.com/dixonge/dwa-11ty#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "cssnano": "^4.1.10",
     "markdown-it": "^10.0.0"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.1.0",
     "@types/postcss-import": "^12.0.0",
     "autoprefixer": "^9.7.5",
-    "cssnano": "^4.1.10",
     "netlify-cli": "^2.41.0",
     "postcss": "^7.0.27",
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1",
-    "purgecss": "^2.1.0",
     "tailwindcss": "^1.2.0",
     "watch": "^1.0.2"
   }
