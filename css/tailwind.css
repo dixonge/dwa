@@ -12,3 +12,7 @@ a {
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+header img {
+    display: inherit;
+}

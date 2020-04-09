@@ -733,6 +733,14 @@ a {
   margin-top: 4rem;
 }
 
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -862,6 +870,10 @@ a {
   white-space: nowrap;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .gap-4 {
   grid-gap: 1rem;
   gap: 1rem;
@@ -892,4 +904,8 @@ a {
 
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+header img {
+  display: inherit;
 }
