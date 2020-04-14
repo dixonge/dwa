@@ -1,29 +1,10 @@
 {
-  "name": "dwa-11ty",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "build:css": "postcss css/tailwind.css -o css/index.css",
     "build:css-purge": "env NODE_ENV=production postcss css/tailwind.css -o css/index.css",
     "build": "eleventy",
     "watch": "eleventy --serve --port=8080"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/dixonge/dwa-11ty.git"
-  },
-  "keywords": [],
-  "author": {
-    "name": "Philip Dixon",
-    "email": "philip_dixon@att.net",
-    "url": "https://dixonwildlifeart.com/"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dixonge/dwa-11ty/issues"
-  },
-  "homepage": "https://github.com/dixonge/dwa-11ty#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@fullhuman/postcss-purgecss": "^2.1.2",
