@@ -10,6 +10,7 @@ images:
   - elk-at-sunrise.jpg
   - elkmorning-w.jpg
   - foggy-morning-w.jpg
+  - girl-with-deer.JPG
   - horse-lady-sold-w.jpg
   - hunter-w.jpg
   - lone-bison-w.jpg
