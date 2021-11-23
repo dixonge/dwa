@@ -3,6 +3,11 @@ author: Philip Dixon
 title: Welcome
 layout: layouts/home.njk
 ---
+
+--------------------------------
+UNDER MAINTENANCE - WILL RETURN SHORTLY
+--------------------------------
+
 # Welcome
 
 Thank you for visiting. Please enjoy looking around. I hope you find something you love.
