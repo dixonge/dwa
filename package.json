@@ -9,7 +9,7 @@
     "@11ty/eleventy": "^0.10.0",
     "@fullhuman/postcss-purgecss": "^2.1.2",
     "cssnano": "^4.1.10",
-    "markdown-it": "^10.0.0"
+    "markdown-it": "^12.3.2"
   },
   "dependencies": {
     "@types/postcss-import": "^12.0.0",
